@@ -1,0 +1,113 @@
+header h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;  
+}
+header .logo {
+  display: inline;
+  height: 100px;
+}
+header ul li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+header ul li a {
+  margin-left: 100px;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  background-color: grey;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5px;
+  gap: 5px;
+  height: 70vh;
+  align-content: center;
+}
+
+fieldset {
+  border: none;
+  padding: 120px;
+}
+
+input {
+  display: block;
+  width: 200px;
+  height: 20px;
+  transition: all 2s;
+}
+
+p {
+  display: inline;
+}
+
+img {
+  height: 250px;
+  width: auto;
+}
+
+img:hover {
+  box-shadow: 9px 18px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+footer-mapa {
+  background-color: lightblue;
+}
+
+footer-mapa-2 {
+  background-color: violet;
+}
+
+footer-mapa-3 {
+  background-color: blue;
+}
+
+@media (max-width: 768px) {
+  ul li {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .grid-container div {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (max-width: 768px) {
+  footer h3 {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .bio {
+    background-color: grey;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}/*# sourceMappingURL=main.css.map */

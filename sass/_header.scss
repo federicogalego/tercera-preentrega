@@ -1,0 +1,26 @@
+header {
+
+    h1 {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .logo {
+        display: inline;
+        height: 100px;
+    }
+
+    ul li {
+        list-style: none;
+        display: inline;
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        a {
+            margin-left: 100px;
+            padding: 10px;
+        }
+
+    }
+
+}

@@ -1,0 +1,34 @@
+@media (max-width: $widthMobile) {
+    ul li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: $widthMobile) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: $widthMobile) {
+    .grid-container div {
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+@media (max-width: $widthMobile) {
+    footer h3 {
+        display: block;
+    }
+}
+
+@media (max-width: $widthMobile) {
+    .bio {
+        background-color: $colorBg;
+    }
+}

@@ -1,0 +1,22 @@
+footer {
+    display: block;
+    text-align: center;
+}
+
+$red-social: (
+    tw: lightblue,
+    ig: violet,
+    fb: blue,
+);
+
+footer-mapa {
+    background-color: map-get($red-social, tw);
+}
+
+footer-mapa-2 {
+    background-color: map-get($red-social, ig);
+}
+
+footer-mapa-3 {
+    background-color: map-get($red-social, fb);
+}

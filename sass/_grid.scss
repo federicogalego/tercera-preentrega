@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    background-color: $colorBg;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    gap: 5px;
+    height: 70vh;
+    align-content: center;
+}
+
+
+img {
+    height: 250px;
+    width: auto;
+}
+
+img:hover {
+    box-shadow: 9px 18px 20px 0px rgb(0 0 0 / 40%);
+}
